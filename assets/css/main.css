@@ -2447,3 +2447,38 @@ input, select, textarea {
 #bio-1 {
 	font-size: 14px;
 }
+
+#resumeHeaderLink {
+	background-color: navy;
+}
+
+#skills-table {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-self: center;
+	justify-content: center;
+}
+
+#skills-table li {
+	list-style: none;
+	width: 300px;
+	height: 300px;
+	font-size: 36px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-icon {
+	width: 100px;
+	height: 100px;
+}
+
+#skills-table li p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
