@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #666666;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -2481,4 +2481,15 @@ input, select, textarea {
 #skills-table li p {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+#resumeInnerLink {
+	width: 400px;
+	height: 100px;
+	padding: 10px;
+	font-weight: bolder;
+	color: white;
+	background-color: #0062DB;
+	text-decoration: none;
+	border-radius: 5px;
 }
