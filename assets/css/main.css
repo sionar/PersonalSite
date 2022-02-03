@@ -176,6 +176,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
+		text-align: center;
 	}
 
 	h3 {
@@ -206,6 +207,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 3em 0;
+
 	}
 
 		header > p {
@@ -2492,4 +2494,9 @@ input, select, textarea {
 	background-color: #0062DB;
 	text-decoration: none;
 	border-radius: 5px;
+}
+
+.portf {
+	display: flex;
+	justify-content: center;
 }
